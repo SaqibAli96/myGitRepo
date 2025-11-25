@@ -5,11 +5,11 @@ def printNum():
         list1.append(i)
     return list1
 
-#odd checker added below
+#even checker added below
 
-def odd_checker(list1):
+def eve_checker(list1):
     for i in list1:
-        if i%2 != 0:
+        if i%2 == 0:
             print(i)
 
-odd_checker(printNum())
+eve_checker(printNum())
