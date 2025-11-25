@@ -12,4 +12,5 @@ def eve_checker(list1):
         if i%2 == 0:
             print(i)
 
-eve_checker(printNum())
+print(eve_checker(printNum()))
+
