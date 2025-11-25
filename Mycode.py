@@ -12,6 +12,8 @@ def eve_checker(list1):
         if i%2 == 0:
             print(i)
 
+print(eve_checker(printNum()))
+
 eve_checker(printNum())
 
 def odd_checker(list1):
