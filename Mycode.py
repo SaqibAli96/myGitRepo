@@ -13,3 +13,10 @@ def eve_checker(list1):
             print(i)
 
 eve_checker(printNum())
+
+def odd_checker(list1):
+    for i in list1:
+        if i%2 != 0:
+            print(i)
+
+odd_checker(printNum())
