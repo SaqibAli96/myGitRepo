@@ -1,8 +1,15 @@
 
 def printNum():
+    list1 = []
     for i in range(10):
-        print(i)
+        list1.append(i)
+    return list1
 
-printNum()
-#add your evenchecker function here.
+#odd checker added below
 
+def odd_checker(list1):
+    for i in list1:
+        if i%2 != 0:
+            print(i)
+
+odd_checker(printNum())
